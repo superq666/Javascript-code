@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>自动生成</title>
+	</head>
+	<body>
+		<h1>自动造句</h1>
+		<script>
+			makephrase();
+			function makephrase(){
+				var word1=['1','2','3','4','5'];
+				var word2=['条','只','头','个','片'];
+				var word3=['牛','鱼','鸟','人','虫'];
+				w1=word1[Math.floor(Math.random()*5)];
+				w2=word2[Math.floor(Math.random()*5)];
+				w3=word3[Math.floor(Math.random()*5)];
+				alert(w1+w2+w3)
+			}
+
+		</script>	
+	</body>
+</html>
